@@ -1,0 +1,73 @@
+/* SETTINGS GENERALI */
+:root {
+    --red: #cc0000;
+    --yellow:#ffde00;
+    --blue:#3b4cca;
+}
+
+body{
+    background-color: var(--blue);
+    color: var(--yellow)
+
+}
+
+@font-face {
+    font-family: pokemon;
+    src: url(./media/Ketchum.otf);
+}
+
+h1{
+    font-family: pokemon;
+}
+
+.text-blue{
+    color: var(--blue);
+}
+
+.text-red{
+    color: var(--red);
+}
+
+.text-yellow{
+    color: var(--yellow);
+}
+
+
+
+/* Bottoni */
+.btn-custom{
+    background-color: var(--blue) ;
+    border: 8px solid var(--red);
+    padding: 40px 50px;
+    
+
+
+}
+
+.btn-custom:hover{
+    background-color:var(--yellow);
+    border: 8px solid var(--red);
+    padding: 40px 50px;
+    color: var(--blue)
+
+}
+
+
+.inputIcon{
+    width: 30px;
+}
+
+
+/* card conatatto */
+.card-custom{
+    height: 100px;
+    border: 8px  solid var(--red);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.trashIcon{
+    cursor: pointer;
+}
